@@ -1,0 +1,82 @@
+*{
+    margin: o;
+    padding: 0;
+}
+nav{
+    display: flex;
+    gap: 25%;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+    list-style: none;
+}
+nav li a:hover {
+color: #00b39b;
+}
+nav li a {
+    text-decoration: none;
+    color:#747474;
+}
+nav img{
+    width: 268px;
+    height: 33px;
+    margin-left: 15%;
+    margin-top: 0.5%;
+}
+.lead__logo{
+    display: block;
+    margin: 20px auto;
+    width: 40px;
+}
+.main_title{
+    font-size: 2.125rem;
+    color: #00b39b;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 10;
+
+}
+.grid{
+    display: flex;
+    text-justify: distribute-all-lines; 
+    margin: 3% 20% 0 20%;
+    gap: 20px;
+}
+.grid p {
+   
+    line-height: 1.75;
+    font-weight: 400;
+    font-size: 15px;
+    color:#747474;
+    font-family: sans-serif;
+}
+#servicesa{
+    display: flex;
+    flex-direction:row;
+    margin: 5% 20% 0 20%;
+    gap: 25px;
+}
+.services{
+    background-color: #00b39b;
+    border-radius: 10px;
+    
+}
+.services_item1{
+    margin: 15%;
+    font-family: sans-serif;
+    color: #fff;
+}
+.services_item1 h1{
+    font-weight: 10;
+}
+.services_item1 h2{
+    font-weight: 10;
+}
+.item_clinics{
+    background: #1a2734;
+}
+.item_doctors{
+    background: #3d82de;
+}
